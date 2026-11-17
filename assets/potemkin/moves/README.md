@@ -1,0 +1,1 @@
+Four different isolated Strive reference poses from Dustloop: Potemkin Buster startup, Mega Fist, Hammer Fall, and F.D.B. Each has its own silhouette reveal. These are single frames, not full attack cycles. The installed Xbox-PC PAK files were not extracted. See asset-manifest.json and docs/asset-audit.md for sources and limitations.

@@ -1,0 +1,25 @@
+{
+  "id": "song-resolve",
+  "width": 291,
+  "height": 296,
+  "columns": 4,
+  "rows": 3,
+  "frameCount": 10,
+  "durations": [
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    1000
+  ],
+  "durationSeconds": 1.72,
+  "atlas": "assets/potemkin/animations/song-resolve-atlas.png",
+  "poster": "assets/potemkin/animations/song-resolve-poster.png",
+  "pixelArt": true,
+  "monochrome": false
+}
