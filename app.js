@@ -69,6 +69,7 @@
     progress.style.width = `${state.current / chapters.length * 100}%`;
     window.scrollTo({ top: 0, behavior: 'instant' });
     if (focus) chapters[state.current].querySelector('h1, h2').focus({ preventScroll: true });
+    window.PotemkinSlides?.fit();
     requestAnimationFrame(() => window.PotemkinMotion?.refresh());
     updateAutoplay();
   }
@@ -112,6 +113,7 @@
     body.classList.remove('presentation');
     bar.hidden = true;
     chapters.forEach(chapter => chapter.classList.remove('active'));
+    window.PotemkinSlides?.fit();
     chapters[state.current].scrollIntoView({ behavior: 'instant', block: 'start' });
     chapters[state.current].querySelector('h1, h2').focus({ preventScroll: true });
   }
@@ -139,6 +141,10 @@
     if (state.presenting && index >= 0) {
       event.preventDefault();
       navigate(index);
+    } else if (index >= 0 && window.PotemkinSlides) {
+      event.preventDefault();
+      history.replaceState(null, '', `#${id}`);
+      window.PotemkinSlides.goTo(chapters[index]);
     } else if (['quellen', 'deutschhilfe'].includes(id)) {
       const target = document.getElementById(id);
       if (state.presenting) exitPresentation();

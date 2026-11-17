@@ -35,7 +35,16 @@
       "bytes": 672818,
       "id": "hero-keyart",
       "usedIn": "start",
-      "effect": "diagonal_ink_reveal"
+      "effect": "diagonal_ink_reveal",
+      "optimizedFile": "assets/potemkin/portraits/potemkin-key-art.webp",
+      "optimizedBytes": 389266,
+      "optimization": {
+        "format": "WebP",
+        "lossless": true,
+        "decodedAlphaExact": true,
+        "visibleRgbExact": true,
+        "savedBytes": 283552
+      }
     },
     {
       "file": "assets/potemkin/poses/potemkin-chibi.png",
@@ -61,7 +70,16 @@
       "readyForSite": true,
       "id": "holiday-chibi",
       "usedIn": "unser-tag",
-      "effect": "radial_stencil"
+      "effect": "radial_stencil",
+      "optimizedFile": "assets/potemkin/poses/potemkin-chibi.webp",
+      "optimizedBytes": 140732,
+      "optimization": {
+        "format": "WebP",
+        "lossless": true,
+        "decodedAlphaExact": true,
+        "visibleRgbExact": true,
+        "savedBytes": 74804
+      }
     },
     {
       "id": "about-guard",
@@ -86,7 +104,16 @@
       "isolation": "Potemkin only; existing alpha retained",
       "readyForSite": true,
       "bytes": 415456,
-      "notes": "A distinct pose, used in exactly one main-page scene. Silhouette-to-color animation is rendered through the original alpha in canvas."
+      "notes": "A distinct pose, used in exactly one main-page scene. Silhouette-to-color animation is rendered through the original alpha in canvas.",
+      "optimizedFile": "assets/potemkin/poses/guard.webp",
+      "optimizedBytes": 250628,
+      "optimization": {
+        "format": "WebP",
+        "lossless": true,
+        "decodedAlphaExact": true,
+        "visibleRgbExact": true,
+        "savedBytes": 164828
+      }
     },
     {
       "id": "move-buster",
@@ -111,7 +138,16 @@
       "isolation": "Potemkin only; existing alpha retained",
       "readyForSite": true,
       "bytes": 462771,
-      "notes": "A distinct pose, used in exactly one main-page scene. Silhouette-to-color animation is rendered through the original alpha in canvas."
+      "notes": "A distinct pose, used in exactly one main-page scene. Silhouette-to-color animation is rendered through the original alpha in canvas.",
+      "optimizedFile": "assets/potemkin/moves/buster.webp",
+      "optimizedBytes": 273750,
+      "optimization": {
+        "format": "WebP",
+        "lossless": true,
+        "decodedAlphaExact": true,
+        "visibleRgbExact": true,
+        "savedBytes": 189021
+      }
     },
     {
       "id": "move-mega",
@@ -136,7 +172,16 @@
       "isolation": "Potemkin only; existing alpha retained",
       "readyForSite": true,
       "bytes": 492315,
-      "notes": "A distinct pose, used in exactly one main-page scene. Silhouette-to-color animation is rendered through the original alpha in canvas."
+      "notes": "A distinct pose, used in exactly one main-page scene. Silhouette-to-color animation is rendered through the original alpha in canvas.",
+      "optimizedFile": "assets/potemkin/moves/mega-fist.webp",
+      "optimizedBytes": 330480,
+      "optimization": {
+        "format": "WebP",
+        "lossless": true,
+        "decodedAlphaExact": true,
+        "visibleRgbExact": true,
+        "savedBytes": 161835
+      }
     },
     {
       "id": "move-hammer",
@@ -161,7 +206,16 @@
       "isolation": "Potemkin only; existing alpha retained",
       "readyForSite": true,
       "bytes": 594914,
-      "notes": "A distinct pose, used in exactly one main-page scene. Silhouette-to-color animation is rendered through the original alpha in canvas."
+      "notes": "A distinct pose, used in exactly one main-page scene. Silhouette-to-color animation is rendered through the original alpha in canvas.",
+      "optimizedFile": "assets/potemkin/moves/hammer-fall.webp",
+      "optimizedBytes": 365202,
+      "optimization": {
+        "format": "WebP",
+        "lossless": true,
+        "decodedAlphaExact": true,
+        "visibleRgbExact": true,
+        "savedBytes": 229712
+      }
     },
     {
       "id": "move-fdb",
@@ -186,7 +240,16 @@
       "isolation": "Potemkin only; existing alpha retained",
       "readyForSite": true,
       "bytes": 279394,
-      "notes": "A distinct pose, used in exactly one main-page scene. Silhouette-to-color animation is rendered through the original alpha in canvas."
+      "notes": "A distinct pose, used in exactly one main-page scene. Silhouette-to-color animation is rendered through the original alpha in canvas.",
+      "optimizedFile": "assets/potemkin/moves/fdb.webp",
+      "optimizedBytes": 177216,
+      "optimization": {
+        "format": "WebP",
+        "lossless": true,
+        "decodedAlphaExact": true,
+        "visibleRgbExact": true,
+        "savedBytes": 102178
+      }
     },
     {
       "id": "history-intro",
@@ -263,7 +326,19 @@
       "isolation": "Potemkin only; source GIF transparency retained",
       "readyForSite": true,
       "bytes": 314498,
-      "notes": "Original GIF frame order and variable timing preserved; lossless RGBA PNG output. No looping or duplicate use across chapters."
+      "notes": "Original GIF frame order and variable timing preserved; lossless RGBA PNG output. No looping or duplicate use across chapters.",
+      "optimizedFile": "assets/potemkin/animations/history-intro-atlas.webp",
+      "optimizedBytes": 145406,
+      "optimization": {
+        "format": "WebP",
+        "lossless": true,
+        "decodedAlphaExact": true,
+        "visibleRgbExact": true,
+        "savedBytes": 169092
+      },
+      "optimizedAtlas": "assets/potemkin/animations/history-intro-atlas.webp",
+      "optimizedPoster": "assets/potemkin/animations/history-intro-poster.webp",
+      "optimizedPosterBytes": 5630
     },
     {
       "id": "song-resolve",
@@ -306,7 +381,19 @@
       "isolation": "Potemkin only; source GIF transparency retained",
       "readyForSite": true,
       "bytes": 82782,
-      "notes": "Original GIF frame order and variable timing preserved; lossless RGBA PNG output. No looping or duplicate use across chapters."
+      "notes": "Original GIF frame order and variable timing preserved; lossless RGBA PNG output. No looping or duplicate use across chapters.",
+      "optimizedFile": "assets/potemkin/animations/song-resolve-atlas.webp",
+      "optimizedBytes": 45604,
+      "optimization": {
+        "format": "WebP",
+        "lossless": true,
+        "decodedAlphaExact": true,
+        "visibleRgbExact": true,
+        "savedBytes": 37178
+      },
+      "optimizedAtlas": "assets/potemkin/animations/song-resolve-atlas.webp",
+      "optimizedPoster": "assets/potemkin/animations/song-resolve-poster.webp",
+      "optimizedPosterBytes": 4746
     },
     {
       "id": "victory-salute",
@@ -368,7 +455,19 @@
       "isolation": "Potemkin foreground matte; arena and Gabriel hologram excluded",
       "readyForSite": true,
       "bytes": 1723355,
-      "notes": "21 original color frames, original timing retained, foreground isolated offline with IMG.LY background-removal-node 1.4.5. Soft steam edges are retained as his own effect. A 390x284 left-side crop from the 640x284 source focuses on the saluting hand and face, excluding the hologram and projector. Silhouette-to-color reveal uses the same alpha."
+      "notes": "21 original color frames, original timing retained, foreground isolated offline with IMG.LY background-removal-node 1.4.5. Soft steam edges are retained as his own effect. A 390x284 left-side crop from the 640x284 source focuses on the saluting hand and face, excluding the hologram and projector. Silhouette-to-color reveal uses the same alpha.",
+      "optimizedFile": "assets/potemkin/animations/victory-salute-atlas.webp",
+      "optimizedBytes": 1146968,
+      "optimization": {
+        "format": "WebP",
+        "lossless": true,
+        "decodedAlphaExact": true,
+        "visibleRgbExact": true,
+        "savedBytes": 576387
+      },
+      "optimizedAtlas": "assets/potemkin/animations/victory-salute-atlas.webp",
+      "optimizedPoster": "assets/potemkin/animations/victory-salute-poster.webp",
+      "optimizedPosterBytes": 42866
     }
   ],
   "missing": [
@@ -801,5 +900,51 @@
       "isolation": "Potemkin foreground matte; arena and Gabriel hologram excluded",
       "bytes": 75370
     }
-  ]
+  ],
+  "loadingAnimation": {
+    "id": "loader-idle",
+    "file": "assets/potemkin/effects/loader-idle.webp",
+    "poster": "assets/potemkin/effects/loader-idle.png",
+    "category": "effects",
+    "pose": "Original Guilty Gear X idle cycle / startup loader only",
+    "usedIn": "startup-loader",
+    "game": "Guilty Gear X (gallery label)",
+    "gameVersion": null,
+    "platform": "Web reference; original platform / patch unconfirmed",
+    "source": "https://www.fightersgeneration.com/characters3/potemkin-stance.gif",
+    "sourcePage": "https://www.fightersgeneration.com/characters3/potemkin-a.html",
+    "sourceFile": "source-materials/web/ggx-idle.gif",
+    "sourceSha256": "e866c18dd051c21fd52eb8607a366f27e884dae0b7cc581fd1967a0b959f6de7",
+    "resourceType": "lossless_animated_webp",
+    "width": 95,
+    "height": 135,
+    "frameCount": 10,
+    "fps": 10,
+    "durations": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "durationSeconds": 1,
+    "alpha": true,
+    "isolation": "Original transparent GIF background retained; Potemkin only",
+    "readyForSite": true,
+    "bytes": 18500,
+    "posterBytes": 4557,
+    "notes": "Unique startup-only motif, not reused in any main-page chapter. Lossless animated WebP; original ten frames and 100 ms timing preserved. PNG first-frame fallback is used with reduced motion. Original is excluded from publication.",
+    "losslessValidation": {
+      "decoder": "libvips / sharp RGBA",
+      "alphaMismatchPixels": 0,
+      "visibleRgbMismatchPixels": 0,
+      "visiblePixels": 78648,
+      "transparentPixels": 49602
+    }
+  }
 }
